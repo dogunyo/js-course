@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning classes in js</h1>
+    <script>
+        class Student {
+            constructor(username, id) {
+                this.username = username;
+                this.id = id;
+            }
+
+            studentLogin() {
+                console.log("student login successful");
+            }
+        }
+
+        // Creating an instance of the Student class
+        const student1 = new Student("JohnDoe", 12345);
+        // Calling the studentLogin method
+        student1.studentLogin();
+    </script>
+</body>
+</html>
